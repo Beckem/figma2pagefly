@@ -1,0 +1,11 @@
+{
+  "extends": "@create-figma-plugin/tsconfig",
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "typeRoots": ["node_modules/@figma", "node_modules/@types"],
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "jsxFragmentFactory": "Fragment"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
